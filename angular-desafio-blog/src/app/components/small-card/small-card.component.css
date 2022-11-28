@@ -1,0 +1,34 @@
+.container__small-card {
+  width: 950px;
+  height: 227px;
+}
+
+.container__small-card-content {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.container__small-card-separator > hr {
+  opacity: 30%;
+}
+
+.small-card__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-card__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-card__title > h1 {
+  padding: 10px;
+  font-size: 25px;
+  justify-content: flex-start;
+}
+
+
