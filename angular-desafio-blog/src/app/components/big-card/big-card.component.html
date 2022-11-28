@@ -1,18 +1,18 @@
 <div class="container__big-card">
   <div class="big-card__img">
     <img
-    src="../../../assets/images (1).jpg"
+    src="{{ image }}"
     alt=""
     height="400px"
     >
   </div>
   <div class="big-card__title">
-    <h1><a href="#">Uma nova notícia acabou de sair!</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
 
   </div>
   <div class="big-card__description">
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi dolore magni officiis accusamus tenetur minus blanditiis accusantium facere fugiat. At consequatur officia quidem deserunt dolorum voluptas quos quisquam fugit? Quia, commodi. Fuga commodi velit magnam at ipsum, doloremque, odit debitis ad repudiandae tempora fugiat dolores. Quos totam repellendus ratione vero.
+      {{ cardDescription }}
     </p>
   </div>
 </div>
