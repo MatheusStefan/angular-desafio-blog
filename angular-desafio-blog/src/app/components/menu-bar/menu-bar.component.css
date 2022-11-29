@@ -6,3 +6,9 @@
 .container__menu-bar > ul > li {
   list-style-type: none;
 }
+
+.container__menu-bar > ul > li:hover > a {
+  transition: 30ms;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(211, 172, 238, 0.4);
+}
